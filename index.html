@@ -20,36 +20,41 @@
 </head>
 <body>
   
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg py-3 sticky-top">
-    <div class="container d-flex justify-content-between align-items-center">
-      <!-- Logo -->
-      <a class="navbar-brand d-flex align-items-center" href="#">
-        <img src="images/logo1.png" alt="Codefinity Logo" class="navbar-logo me-2">
-      </a>
+   <!-- Navbar -->
 
-      <!-- Toggler -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+<nav class="navbar navbar-expand-lg py-3 sticky-top">
+  <div class="container d-flex justify-content-between align-items-center">
+    <!-- Logo -->
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="images/logo1.png" alt="Codefinity Logo" class="navbar-logo me-2">
+    </a>
 
-      <!-- Center Links -->
-      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#product">Product</a></li>
-          <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-        </ul>
-      </div>
+    <!-- Toggler -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-      <!-- Get Started Button -->
-      <div class="d-none d-lg-block">
-        <a href="#" class="btn btn-outline-primary rounded-pill px-4">Get Started</a>
-      </div>
+    <!-- Center Links -->
+    <div class="collapse navbar-collapse justify-content-center position-relative" id="navbarNav">
+      <!-- Close Button (visible on mobile only) -->
+      <button type="button" class="btn-close d-lg-none position-absolute top-0 end-0 m-3" 
+              data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Close"></button>
+
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#product">Product</a></li>
+        <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
     </div>
-  </nav>
+
+    <!-- Get Started Button -->
+    <div class="d-none d-lg-block">
+      <a href="#" class="btn btn-outline-primary rounded-pill px-4">Get Started</a>
+    </div>
+  </div>
+</nav>
 
   <!-- Hero Section -->
   <section id="home" class="hero-section position-relative">
