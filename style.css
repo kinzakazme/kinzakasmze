@@ -61,6 +61,11 @@ body {
   box-shadow: 0 8px 20px rgba(13, 110, 253, 0.5);
   color: #fff;
 }
+.navbar-collapse .btn-close {
+    font-size: 1.5rem;
+    color: white; /* White cross on dark navbar */
+    opacity: 1;
+}
 
 /* ---------------- Hero Section ---------------- */
 .hero-section {
